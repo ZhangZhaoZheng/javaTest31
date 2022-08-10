@@ -41,13 +41,7 @@
           <artifactId>maven-source-plugin</artifactId>
           <version>2.2.1</version>
           <executions>
-              <execution>
-                  <goals>
-                      <goal>jar</goal>
-                      <goal>test-jar</goal>
-                  </goals>
-                  <phase>generate-test-resources</phase>
-              </execution>
+
           </executions>
       </plugin>
     </plugins>
